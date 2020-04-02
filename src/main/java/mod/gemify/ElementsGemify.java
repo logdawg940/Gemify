@@ -34,6 +34,12 @@ import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.block.Block;
 
+import mod.gemify.gui.GuiSpeciesSelection;
+import mod.gemify.gui.GuiGemNameSelection;
+import mod.gemify.gui.GuiFacetSelection;
+import mod.gemify.gui.GuiEraSelection;
+import mod.gemify.gui.GuiCutSelection;
+
 import java.util.function.Supplier;
 import java.util.Random;
 import java.util.Map;
@@ -122,11 +128,31 @@ public class ElementsGemify implements IFuelHandler, IWorldGenerator {
 	public static class GuiHandler implements IGuiHandler {
 		@Override
 		public Object getServerGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
+			if (id == GuiEraSelection.GUIID)
+				return new GuiEraSelection.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiSpeciesSelection.GUIID)
+				return new GuiSpeciesSelection.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiCutSelection.GUIID)
+				return new GuiCutSelection.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiFacetSelection.GUIID)
+				return new GuiFacetSelection.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiGemNameSelection.GUIID)
+				return new GuiGemNameSelection.GuiContainerMod(world, x, y, z, player);
 			return null;
 		}
 
 		@Override
 		public Object getClientGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
+			if (id == GuiEraSelection.GUIID)
+				return new GuiEraSelection.GuiWindow(world, x, y, z, player);
+			if (id == GuiSpeciesSelection.GUIID)
+				return new GuiSpeciesSelection.GuiWindow(world, x, y, z, player);
+			if (id == GuiCutSelection.GUIID)
+				return new GuiCutSelection.GuiWindow(world, x, y, z, player);
+			if (id == GuiFacetSelection.GUIID)
+				return new GuiFacetSelection.GuiWindow(world, x, y, z, player);
+			if (id == GuiGemNameSelection.GUIID)
+				return new GuiGemNameSelection.GuiWindow(world, x, y, z, player);
 			return null;
 		}
 	}

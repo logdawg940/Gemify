@@ -1,10 +1,130 @@
 {
-  "id_map": {},
-  "mod_elements": [],
-  "variable_elements": [],
+  "id_map": {
+    "GUI": 6
+  },
+  "mod_elements": [
+    {
+      "name": "EraSelection",
+      "type": "gui",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 2
+      }
+    },
+    {
+      "name": "SpeciesSelection",
+      "type": "gui",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 3
+      }
+    },
+    {
+      "name": "CutSelection",
+      "type": "gui",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 4
+      }
+    },
+    {
+      "name": "FacetSelection",
+      "type": "gui",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 5
+      }
+    },
+    {
+      "name": "GemNameSelection",
+      "type": "gui",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 6
+      }
+    },
+    {
+      "name": "Poofing",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Circlecutsquarefacetredcolor",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Unbreakable",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "WelcometoEarth",
+      "type": "achievement",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Gemstones",
+      "type": "tab",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "playerloggedinbefore",
+      "type": "logic",
+      "scope": "world",
+      "value": "false"
+    },
+    {
+      "name": "gemname",
+      "type": "string",
+      "scope": "world",
+      "value": ""
+    }
+  ],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "advancements.welcometoearth.descr": "You\u0027ve bursted from the ground on Earth!",
+      "tile.unbreakable.name": "Unbreakable",
+      "itemGroup.tabgemstones": "Gemstones",
+      "item.circlecutsquarefacetredcolor.name": "Player Gem",
+      "advancements.welcometoearth.title": "Welcome To Earth!"
+    }
   },
   "workspaceSettings": {
     "modid": "gemify",

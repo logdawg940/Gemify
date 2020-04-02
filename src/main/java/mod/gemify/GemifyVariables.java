@@ -52,6 +52,8 @@ public class GemifyVariables {
 
 	public static class WorldVariables extends WorldSavedData {
 		public static final String DATA_NAME = "gemify_worldvars";
+		public boolean playerloggedinbefore = false;
+		public String gemname = "";
 		public WorldVariables() {
 			super(DATA_NAME);
 		}
@@ -62,10 +64,14 @@ public class GemifyVariables {
 
 		@Override
 		public void readFromNBT(NBTTagCompound nbt) {
+			playerloggedinbefore = nbt.getBoolean("playerloggedinbefore");
+			gemname = nbt.getString("gemname");
 		}
 
 		@Override
 		public NBTTagCompound writeToNBT(NBTTagCompound nbt) {
+			nbt.setBoolean("playerloggedinbefore", playerloggedinbefore);
+			nbt.setString("gemname", gemname);
 			return nbt;
 		}
 

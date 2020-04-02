@@ -1,0 +1,89 @@
+{
+  "_fv": 6,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 854,
+    "height": 480,
+    "renderBgLayer": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "Square Facet",
+          "width": 240,
+          "height": 40,
+          "name": "Square Facet",
+          "x": 12,
+          "y": 24
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Triangle Facet",
+          "width": 280,
+          "height": 40,
+          "name": "Triangle Facet",
+          "x": 282,
+          "y": 24
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Cabochon",
+          "width": 160,
+          "height": 40,
+          "name": "Cabochon",
+          "x": 606,
+          "y": 24
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Hexagon Facet",
+          "width": 260,
+          "height": 40,
+          "name": "Hexagon Facet",
+          "x": 12,
+          "y": 96
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Pentagon Facet",
+          "width": 280,
+          "height": 40,
+          "name": "Pentagon Facet",
+          "x": 300,
+          "y": 96
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Circle Facet",
+          "width": 240,
+          "height": 40,
+          "name": "Circle Facet",
+          "x": 606,
+          "y": 96
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Warp Pad Facet",
+          "width": 320,
+          "height": 40,
+          "name": "Warp Pad Facet",
+          "x": 12,
+          "y": 168
+        }
+      }
+    ]
+  }
+}

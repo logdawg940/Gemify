@@ -1,0 +1,146 @@
+{
+  "_fv": 6,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 854,
+    "height": 480,
+    "renderBgLayer": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "Circle Cut",
+          "width": 200,
+          "height": 40,
+          "name": "Circle Cut",
+          "x": 12,
+          "y": 24
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Eclipse Cut",
+          "width": 220,
+          "height": 40,
+          "name": "Eclipse Cut",
+          "x": 246,
+          "y": 24
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Triangle Cut",
+          "width": 240,
+          "height": 40,
+          "name": "Triangle Cut",
+          "x": 498,
+          "y": 24
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Obelisk Cut",
+          "width": 220,
+          "height": 40,
+          "name": "Obelisk Cut",
+          "x": 12,
+          "y": 96
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Rhombus Cut",
+          "width": 220,
+          "height": 40,
+          "name": "Rhombus Cut",
+          "x": 264,
+          "y": 96
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Heart Cut",
+          "width": 180,
+          "height": 40,
+          "name": "Heart Cut",
+          "x": 516,
+          "y": 96
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Sphere Cut",
+          "width": 200,
+          "height": 40,
+          "name": "Sphere Cut",
+          "x": 12,
+          "y": 168
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Droplet Cut",
+          "width": 220,
+          "height": 40,
+          "name": "Droplet Cut",
+          "x": 246,
+          "y": 168
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Diamond Cut",
+          "width": 220,
+          "height": 40,
+          "name": "Diamond Cut",
+          "x": 498,
+          "y": 168
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Rectangle Cut",
+          "width": 260,
+          "height": 40,
+          "name": "Rectangle Cut",
+          "x": 12,
+          "y": 240
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Help",
+          "width": 80,
+          "height": 40,
+          "name": "Help",
+          "x": 390,
+          "y": 312
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Choose how the outline of the gem is shaped.",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Choose how the outline of the gem is shaped.",
+          "x": 210,
+          "y": 402
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "display": {
+    "background": "minecraft:textures/blocks/stone.png",
+    "icon": {
+      "item": "gemify:circlecutsquarefacetredcolor"
+    },
+    "title": {
+      "translate": "advancements.welcometoearth.title"
+    },
+    "description": {
+      "translate": "advancements.welcometoearth.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "welcometoearth": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:overworld"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  }
+}

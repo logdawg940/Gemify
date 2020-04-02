@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "gemify:blocks/ruby_gem",
+    "up": "gemify:blocks/ruby_gem",
+    "north": "gemify:blocks/ruby_gem",
+    "east": "gemify:blocks/ruby_gem",
+    "south": "gemify:blocks/ruby_gem",
+    "west": "gemify:blocks/ruby_gem",
+    "particle": "gemify:blocks/ruby_gem"
+  }
+}
